@@ -1,0 +1,16 @@
+# Forlders
+pft
+42TESTERS-PRINTF
+printf_lover_v2
+
+# Files
+*.o
+*.swp
+*.h.gch
+test*.*
+test*
+tags
+a.out
+error.log
+leak_test*.*
+*.a

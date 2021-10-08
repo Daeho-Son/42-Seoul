@@ -1,0 +1,6 @@
+# Files
+*.o
+so_long
+a.out
+leak_test.sh
+.vscode
