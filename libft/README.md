@@ -1,6 +1,6 @@
 # Part 1
 ## [memset](https://www.notion.so/memset-04aa0d186601409da02f728d06589833)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_memset.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_memset.c)
 
 > ```
 > #include <string.h>
@@ -23,7 +23,7 @@
 
 
 ## [bzero](https://www.notion.so/bzero-e00d6683b90b4e0fadcee209d133954f)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_bzero.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_bzero.c)
 
 > ```
 > #include <string.h>
@@ -44,7 +44,7 @@
 
 
 ## [memcpy](https://www.notion.so/memcpy-ff20c08cc9e44775836580b71505bdfd)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_.c)
 
 > ```
 > #include <string.h>
@@ -64,7 +64,7 @@
 
 
 ## [memccpy](https://www.notion.so/memccpy-a83f36578390427dbc7a48c646f01a7c)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_memccpy.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_memccpy.c)
 
 > ```
 > #include <string.h>
@@ -87,7 +87,7 @@
 
 
 ## [memmove](https://www.notion.so/memmove-5494d80048df40f297a3f36e5d25f5e8)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_memmove.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_memmove.c)
 
 > ```
 > #include <string.h>
@@ -107,7 +107,7 @@
 
 
 ## [memchr](https://www.notion.so/memchr-eea913c18a7240589e18e521fb9c79a1)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_memchr.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_memchr.c)
 
 > ```
 > #include <string.h>
@@ -129,7 +129,7 @@
 
 
 ## [memcmp](https://www.notion.so/memcmp-59951c35e0bd4f509f858970af757330)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_memcmp.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_memcmp.c)
 
 > ```
 > #include <string.h>
@@ -151,7 +151,7 @@
 
 
 ## [strlen](https://www.notion.so/strlen-84f87394c0d149f6b4df8a3c97699001)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strlen.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strlen.c)
 
 > ```
 > #include <string.h>
@@ -170,7 +170,7 @@
 
 
 ## [strlcpy](https://www.notion.so/strlcpy-strlcat-d419988e521e49bbb69baeff1a31c70f)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strlcpy.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strlcpy.c)
 
 > ```
 > #include <string.h>
@@ -191,7 +191,7 @@
 
 
 ## [strlcat](https://www.notion.so/strlcpy-strlcat-d419988e521e49bbb69baeff1a31c70f)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strlcat.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strlcat.c)
 
 > ```
 > #include <string.h>
@@ -213,7 +213,7 @@
 
 
 ## [strchr](https://www.notion.so/strchr-strrchr-1e9948872e074b32b3b93e0496ac4556)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strchr.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strchr.c)
 
 > ```
 > #include <string.h>
@@ -235,7 +235,7 @@
 
 
 ## [strrchr](https://www.notion.so/strchr-strrchr-1e9948872e074b32b3b93e0496ac4556)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strrchr.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strrchr.c)
 
 > ```
 > #include <string.h>
@@ -257,7 +257,7 @@
 
 
 ## [strnstr](https://www.notion.so/strnstr-8b7d311e08cc463984e7ec2a39a7e5d6)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strnstr.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strnstr.c)
 
 > ```
 > #include <string.h>
@@ -281,7 +281,7 @@
 
 
 ## [strncmp](https://www.notion.so/strcmp-strncmp-f09d2e275e5c479191766349636cb8c2)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strncmp.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strncmp.c)
 
 > ```
 > #include <string.h>
@@ -304,7 +304,7 @@
 
 
 ## [atoi](https://www.notion.so/atoi-atol-atoll-5d9acdd3858f4ddb9cd0d099c1de7568)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_atoi.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_atoi.c)
 
 > ```
 > #include <stdlib.h>
@@ -326,11 +326,11 @@
 
 
 ## [is series](https://www.notion.so/is-series-886a1deb04b84cfca223bf90d22941f9)
-> #### [ft_isalpha 소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_isalpha.c)
-> #### [ft_isdigit 소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_isdigit.c)
-> #### [ft_isalnum 소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_isalnum.c)
-> #### [ft_isascii 소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_isascii.c)
-> #### [ft_isprint 소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_isprint.c)
+> #### [ft_isalpha 소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_isalpha.c)
+> #### [ft_isdigit 소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_isdigit.c)
+> #### [ft_isalnum 소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_isalnum.c)
+> #### [ft_isascii 소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_isascii.c)
+> #### [ft_isprint 소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_isprint.c)
 
 
 > ```
@@ -359,8 +359,8 @@
 
 
 ## [toupper, tolower](https://www.notion.so/toupper-tolower-9ba6db868ef14c1691af83ed13cd5f5b)
-> #### [tosupper 소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_toupper.c)
-> #### [tolower 소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_tolower.c)
+> #### [tosupper 소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_toupper.c)
+> #### [tolower 소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_tolower.c)
 
 > ```
 > #include <ctype.h>
@@ -381,7 +381,7 @@
 
 
 ## [calloc](https://www.notion.so/malloc-calloc-valloc-realloc-reallocf-ae32a840c4da452683820f41cc22d3f2)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_calloc.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_calloc.c)
 
 > ```
 > #include <stdlib.h>
@@ -403,7 +403,7 @@
 
 
 ## [strdup](https://www.notion.so/strdup-cacab8c4dcbe43279a3ed6c9fa9cf45e)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strdup.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strdup.c)
 
 > ```
 > #include <string.h>
@@ -425,7 +425,7 @@
 
 # Part 2
 ## [ft_substr](https://www.notion.so/ft_substr-5960992978c8435fb8847bfa3cc11d61)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_substr.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_substr.c)
 
 > ```
 > char *ft_substr(char const *s, unsigned int start, size_t len);
@@ -442,7 +442,7 @@
 
 
 ## [ft_strjoin](https://www.notion.so/ft_strjoin-d04b1049e2e444609cb419d19eb6f61a)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strjoin.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strjoin.c)
 
 > ```
 > char *ft_strjoin(char const *s1, char const *s2);
@@ -459,7 +459,7 @@
 
 
 ## [ft_strtrim](https://www.notion.so/ft_strtrim-4266d595855842d7a52ea61463102be5)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strtrim.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strtrim.c)
 
 > ```
 > char *ft_strtrim(char const *s1, char const *set);
@@ -476,7 +476,7 @@
 
 
 ## [ft_split](https://www.notion.so/ft_split-0bdf1df337db4de5848d411643cc1ce0)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_split.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_split.c)
 
 > ```
 > char **ft_split(char const *s, char c);
@@ -495,7 +495,7 @@
 
 
 ## [ft_itoa](https://www.notion.so/ft_itoa-50052d0fbd25454cb4ba72424094dc86)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_itoa.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_itoa.c)
 
 > ```
 > char *ft_itoa(int n);
@@ -516,7 +516,7 @@
 
 
 ## [ft_strmapi](https://www.notion.so/ft_strmapi-e8a7a37b8df0408689890e6cb1eb18e7)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_strmapi.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_strmapi.c)
 
 > ```
 > char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
@@ -534,7 +534,7 @@
 
 
 ## [ft_putchar_fd](https://www.notion.so/ft_putchar_fd-3fa96b7daf7a47b7bbe9067566aa75b5)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_putchar_fd.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_putchar_fd.c)
 
 > ```
 > void ft_putchar_fd(char c, int fd);
@@ -551,7 +551,7 @@
 
 
 ## [ft_putstr_fd](https://www.notion.so/ft_putstr_fd-3e6f43160a024fadaf1ff4b590152a8b)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_putstr_fd.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_putstr_fd.c)
 
 > ```
 > void ft_putstr_fd(char *s, int fd);
@@ -568,7 +568,7 @@
 
 
 ## [ft_putendl_fd](https://www.notion.so/ft_putendl_fd-ba8cb27e9a8440ac85fb49cc1a5c48cc)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_putendl_fd.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_putendl_fd.c)
 
 > ```
 > void ft_putendl_fd(char *s, int fd);
@@ -585,7 +585,7 @@
 
 
 ## [ft_putnbr_fd](https://www.notion.so/ft_putnbr_fd-bf8cc69869c5489cb6e07e13a83dcad8)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_putnbr_fd.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_putnbr_fd.c)
 
 > ```
 > void ft_putnbr_fd(int n, int fd);
@@ -603,7 +603,7 @@
 
 # Bonus
 ## [ft_lstnew](https://www.notion.so/ft_lstnew-f6a73d58d4834b9184db5941f80ebec1)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstnew.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstnew.c)
 
 > ```
 > t_list *ft_lstnew(void *content);
@@ -622,7 +622,7 @@
 
 
 ## [ft_lstadd_front](https://www.notion.so/ft_lstadd_front-241215d8da324582b390d221b44df1ff)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstadd_front.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstadd_front.c)
 
 > ```
 > void ft_lstadd_front(t_list **lst, t_list *new);
@@ -639,7 +639,7 @@
 
 
 ## [ft_lstsize](https://www.notion.so/ft_lstsize-c39634edc6384dab9b123c338d834d8d)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstsize.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstsize.c)
 
 > ```
 > int ft_lstsize(t_list *lst);
@@ -656,7 +656,7 @@
 
 
 ## [ft_lstlast](https://www.notion.so/ft_lstlast-4ae8cfe88dcc44759aea3847c0a766c8)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstlast.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstlast.c)
 
 > ```
 > t_list *ft_lstlast(t_list *lst);
@@ -673,7 +673,7 @@
 
 
 ## [ft_lstadd_back](https://www.notion.so/ft_lstadd_back-30ace558e57f4c0a81905aff611bc31d)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstadd_back.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstadd_back.c)
 
 > ```
 > void ft_lstadd_back(t_list **lst, t_list *new);
@@ -690,7 +690,7 @@
 
 
 ## [ft_lstdelone](https://www.notion.so/ft_lstdelone-6499a8622e334a8c9288e9baac69a8da)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstdelone.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstdelone.c)
 
 > ```
 > void ft_lstdelone(t_list *lst, void (*del)(void *));
@@ -708,7 +708,7 @@
 
 
 ## [ft_lstclear](https://www.notion.so/ft_lstclear-da749412b78b4220b87d077e702e621d)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstclear.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstclear.c)
 
 > ```
 > void ft_lstclear(t_list **lst, void (*del)(void *));
@@ -726,7 +726,7 @@
 
 
 ## [ft_lstiter](https://www.notion.so/ft_lstiter-7b671eb9585c4ce1b0073f1fcd6c7b7e)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstiter.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstiter.c)
 
 > ```
 > void ft_lstiter(t_list *lst, void (*f)(void *));
@@ -743,7 +743,7 @@
 
 
 ## [ft_lstmap](https://www.notion.so/ft_lstmap-4ba756dd95c04f2b8cd3b477aa4daacd)
-> #### [소스 코드](https://github.com/Sondho/libft/blob/master/src/ft_lstmap.c)
+> #### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_lstmap.c)
 
 > ```
 > t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
