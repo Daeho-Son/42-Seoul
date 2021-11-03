@@ -15,7 +15,7 @@ CFLAGS		= -Wall -Wextra -Werror
 INC_LINK	= -I./includes/
 
 LIBFT_NAME	= libft.a
-LIBFT_DIR	= ./Libft/
+LIBFT_DIR	= ./libft/
 LIBFT		= $(addprefix $(LIBFT_DIR), $(LIBFT_NAME))
 
 PS_NAME		= push_swap
@@ -48,7 +48,7 @@ CM_OBJS		= $(CM_SRCS:.c=.o)
 	@gcc $(CFLAGS) -c $(INC_LINK) $< -o $@ 
 
 
-all			: $(LIBFT) $(PS_NAME)
+all			: $(PS_NAME)
 
 $(PS_NAME)	: $(LIBFT) $(PS_OBJS) $(CM_OBJS)
 	@echo "make push_swap"

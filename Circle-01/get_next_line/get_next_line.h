@@ -22,6 +22,8 @@
 # define SUCCESS 1
 # define SUCCESS_EOF 0
 
+# define BUFFER_SIZE 32
+
 int		get_next_line(int fd, char **line);
 void	update_store_buff(char ***s, size_t n);
 char	*get_line(char **s);
