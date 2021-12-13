@@ -6,7 +6,7 @@
 /*   By: dason <dason@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/30 15:38:21 by dason             #+#    #+#             */
-/*   Updated: 2021/01/09 19:46:48 by dason            ###   ########.fr       */
+/*   Updated: 2021/12/13 17:15:25 by dason            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ char	*ft_itoa(int n)
 	else
 	{
 		is_minus = 0;
-		unsigned_n = -n;
+		unsigned_n = n;
 	}
 	count = get_count(unsigned_n);
 	if (is_minus)

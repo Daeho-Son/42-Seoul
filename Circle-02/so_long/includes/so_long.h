@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dason <dason@student.42seoul.kr>           +#+  +:+       +#+        */
+/*   By: sondho <sondho@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/06 17:20:19 by dason             #+#    #+#             */
-/*   Updated: 2021/10/04 20:18:27 by dason            ###   ########.fr       */
+/*   Updated: 2021/11/24 23:07:00 by sondho           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ typedef struct s_info
 }						t_info;
 
 /*
-**	ERROR, EXIT_WINDOW
+*	ERROR, EXIT_WINDOW
 */
 void		error(char *msg);
 int			exit_window(t_info *info);
