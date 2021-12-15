@@ -6,7 +6,7 @@
 /*   By: dason <dason@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/26 13:52:06 by dason             #+#    #+#             */
-/*   Updated: 2021/01/09 20:39:53 by dason            ###   ########.fr       */
+/*   Updated: 2021/12/15 18:36:30 by dason            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char	*ft_strdup(const char *s1)
 	char	*tmp_s1;
 	size_t	index;
 
+	if (!s1)
+		return (NULL);
 	index = 0;
 	tmp_s1 = (char *)ft_calloc((ft_strlen(s1) + 1), 1);
 	if (!tmp_s1)
