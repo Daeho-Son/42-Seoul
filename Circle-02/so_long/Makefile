@@ -2,7 +2,9 @@ CFLAGS		= -Wall -Wextra -Werror
 MLX_FLAGS	= -Lmlx -lmlx -framework OpenGL -framework AppKit
 FSANITIZE	= -fsanitize=address
 
+MLX_NAME 	= libmlx.a
 MLX_DIR		= ./mlx/
+MLX			= $(addprefix $(MLX_DIR), $(MLA_NAME))
 
 LIBFT_NAME	= libft.a
 LIBFT_DIR	= ./libft/
@@ -33,7 +35,7 @@ all			: $(NAME)
 
 $(NAME)	: $(MLX) $(LIBFT) $(OBJS)
 	@echo "\033[31mmake SO_LONG\033[0m"
-	gcc -g $(FSANITIZE) $(OBJS) $(MLX_FLAGS) $(LIBFT) -o $(NAME)
+	gcc -g $(FSANITIZE) $(OBJS) $(MLX_FLAGS) $(LIBFT) $(MLX) -o $(NAME)
 
 $(LIBFT)	:
 	@make all -C $(LIBFT_DIR)
@@ -44,6 +46,7 @@ $(MLX)		:
 
 clean		:
 	@make clean -C $(LIBFT_DIR)
+	@make clean -C $(MLX_DIR)
 	@echo "\033[31mmake clean SO_LONG\033[0m"
 	rm -f $(OBJS)
 
