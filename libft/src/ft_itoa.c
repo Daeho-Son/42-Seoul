@@ -6,7 +6,7 @@
 /*   By: dason <dason@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/30 15:38:21 by dason             #+#    #+#             */
-/*   Updated: 2021/12/30 23:37:10 by dason            ###   ########.fr       */
+/*   Updated: 2022/01/02 14:20:50 by dason            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ static char	*fill_str(unsigned int n, unsigned int len)
 
 static unsigned int	get_len(unsigned int n, int len)
 {
-	while (n > 10)
+	while (n >= 10)
 	{
 		len++;
 		n /= 10;
