@@ -6,7 +6,7 @@
 /*   By: dason <dason@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/06 14:52:45 by dason             #+#    #+#             */
-/*   Updated: 2021/07/06 14:52:46 by dason            ###   ########.fr       */
+/*   Updated: 2022/01/03 16:29:28 by dason            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ char	*ft_strjoin(char *s1, char *s2)
 
 size_t	ft_isnewline(char *s)
 {
-	size_t	 index;
+	size_t	index;
 
 	if (!s)
 		return (0);

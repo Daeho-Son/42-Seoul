@@ -6,7 +6,7 @@
 /*   By: sondho <sondho@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/15 16:43:32 by dason             #+#    #+#             */
-/*   Updated: 2021/08/02 18:14:11 by sondho           ###   ########.fr       */
+/*   Updated: 2022/01/03 16:31:33 by dason            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ static char	*ft_strjoin_gnl(char *s1, char *s2)
 
 static size_t	ft_isnewline(char *s)
 {
-	size_t	 index;
+	size_t	index;
 
 	if (!s)
 		return (0);

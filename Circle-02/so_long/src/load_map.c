@@ -6,7 +6,7 @@
 /*   By: dason <dason@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/04 20:14:44 by dason             #+#    #+#             */
-/*   Updated: 2021/10/04 20:24:55 by dason            ###   ########.fr       */
+/*   Updated: 2022/01/03 16:32:33 by dason            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,8 @@ static void	read_map(t_map_data *map_data, char *argv[])
 			map_data->count_exit++;
 	}
 	ft_putchar_fd('\n', 1);
-	map_data->map_width = (map_data->map_width - map_data->map_height) \
-						  / map_data->map_height;
+	map_data->map_width = \
+		(map_data->map_width - map_data->map_height) / map_data->map_height;
 	close(fd);
 }
 
