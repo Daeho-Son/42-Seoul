@@ -1,0 +1,12 @@
+test.sh
+test.c
+test
+*.o
+*.a
+*.h.gch
+a.out
+*.swp
+ft_split2.c
+tags
+leak_main.c
+error.log
