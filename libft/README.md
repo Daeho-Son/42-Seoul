@@ -33,7 +33,7 @@ void ft_bzero(void *ptr, size_t num);
 <br>
 
 ## [ft_memcpy](https://www.notion.so/memcpy-ff20c08cc9e44775836580b71505bdfd)
-### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_.c)
+### [소스 코드](https://github.com/Sondho/42-Seoul/blob/master/libft/src/ft_memcpy.c)
 
 ```c
 void *ft_memcpy(void *dst, const void *src, size_t n);
