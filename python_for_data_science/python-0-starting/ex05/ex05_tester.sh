@@ -22,7 +22,7 @@ func_run_test "$case2_command" "$case2_expected"
 
 
 # TEST CASE 2 - 프로그램 인수를 입력하지 않은 경우, 문자열을 입력 받고 그 문자열의 정보를 출력한다.
-case3_command='python building.py < "Hello World!"'
+case3_command='echo "Hello World!" | python building.py'
 case3_expected="The text contains 13 characters:
 2 upper letters
 8 lower letters
