@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ft_package/__init__.py
+ft_package/count_in_list.py
+ft_package.egg-info/PKG-INFO
+ft_package.egg-info/SOURCES.txt
+ft_package.egg-info/dependency_links.txt
+ft_package.egg-info/not-zip-safe
+ft_package.egg-info/top_level.txt

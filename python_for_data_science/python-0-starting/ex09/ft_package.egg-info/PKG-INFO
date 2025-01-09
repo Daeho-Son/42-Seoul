@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ft-package
+Version: 0.0.1
+Summary: PYPI tutorial package creation written by dason
+Home-page: https://profile.intra.42.fr/users/dason
+Author: dason
+Author-email: dason@student.42seoul.kr
+Keywords: ft_package
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE
