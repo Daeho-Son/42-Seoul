@@ -3,6 +3,7 @@ source ../run_test.sh
 # ft_filter.__doc__ Test
 echo "========= TEST ft_filter.__doc ========="
 echo "Result: " $(python doc_tester.py)
+echo "--------------------"
 
 
 # TEST CASE 1
