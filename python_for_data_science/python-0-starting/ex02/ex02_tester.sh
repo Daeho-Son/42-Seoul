@@ -1,17 +1,4 @@
-func_run_test()
-{
-	output=$(eval "$1")
-	expected_output=$2
-
-	echo "[TEST] $1"
-	echo -n "Result: "
-	if [[ "$expected_output" == "$output" ]]; then
-		echo "OK"
-	else
-		echo "KO"
-	fi
-	echo ""
-}
+source ../run_test.sh
 
 echo "========== TEST ex02 =========="
 
