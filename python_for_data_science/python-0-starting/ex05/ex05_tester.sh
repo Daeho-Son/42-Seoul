@@ -21,9 +21,10 @@ case2_expected="The text contains 171 characters:
 func_run_test "$case2_command" "$case2_expected"
 
 
-# TEST CASE 2 - 프로그램 인수를 입력하지 않은 경우, 문자열을 입력 받고 그 문자열의 정보를 출력한다.
-case3_command='echo "Hello World!" | python building.py'
-case3_expected="The text contains 13 characters:
+# TEST CASE 3 - 프로그램 인수를 입력하지 않은 경우, 문자열을 입력 받고 그 문자열의 정보를 출력한다.
+case3_command='echo -e "Hello World!" | python building.py'
+case3_expected="What is the text to count?
+The text contains 13 characters:
 2 upper letters
 8 lower letters
 1 punctuation marks
@@ -31,3 +32,28 @@ case3_expected="The text contains 13 characters:
 0 digits"
 
 func_run_test "$case3_command" "$case3_expected"
+
+# TEST CASE 4 - 프로그램 인수를 입력하지 않은 경우, 문자열을 입력 받고 그 문자열의 정보를 출력한다.
+case4_command='echo -n "Hello World!" | python building.py'
+case4_expected="What is the text to count?
+The text contains 12 characters:
+2 upper letters
+8 lower letters
+1 punctuation marks
+1 spaces
+0 digits"
+
+func_run_test "$case4_command" "$case4_expected"
+
+
+# TEST CASE 5 - 프로그램 인수를 입력하지 않은 경우, 문자열을 입력 받고 그 문자열의 정보를 출력한다.
+case4_command='echo -ne "Hello World!\r\n" | python building.py'
+case4_expected="What is the text to count?
+The text contains 14 characters:
+2 upper letters
+8 lower letters
+1 punctuation marks
+3 spaces
+0 digits"
+
+func_run_test "$case4_command" "$case4_expected"
