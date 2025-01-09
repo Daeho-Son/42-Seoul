@@ -1,4 +1,7 @@
 def ft_tqdm(lst: range) -> None:
+    """A function that outputs the loading bar for a given number.
+- The parameter requires range.
+"""
     for elem in lst:
         number = elem + 1
         progress_percent = int((number) / len(lst) * 100)
@@ -12,6 +15,7 @@ def ft_tqdm(lst: range) -> None:
 
 
 def main():
+    """This is the main statement that is not being used."""
     ft_tqdm(None)
 
 
