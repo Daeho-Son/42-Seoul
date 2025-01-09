@@ -7,7 +7,7 @@ case1_expected="... --- ...$"
 func_run_test "$case1_command" "$case1_expected"
 
 
-# TEST CASE 2 - 허용되지 않은 특수문자
+# TEST CASE 2 - 허용되지 않은 특수문자 입력 시, AssertionError 출력
 case2_command="python sos.py 'h\$llo'"
 case2_expected="AssertionError: the arguments are bad"
 
@@ -26,3 +26,10 @@ case4_command="python sos.py 'H E L L O'"
 case4_expected=".... / . / .-.. / .-.. / ---"
 
 func_run_test "$case4_command" "$case4_expected"
+
+
+# TEST CASE 5 - 특수문자 @ 포함 입력 시, AssertionError 출력
+case5_command="python sos.py 'H@ello'"
+case5_expected="AssertionError: the arguments are bad"
+
+func_run_test "$case5_command" "$case5_expected"
