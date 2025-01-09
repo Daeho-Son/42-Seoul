@@ -5,13 +5,12 @@ func_run_test()
 	output=$(eval "$command")
 
 	echo "Execute Command: $command"
-	echo -n "Result: "
 	if [[ "$expected" == "$output" ]]; then
-		echo "OK"
+		echo "Result: OK"
 	else
 		echo -e "<OUTPUT>\n$output"
 		echo -e "<EXPECTED>\n$expected"
-		echo "KO"
+		echo "Result: KO"
 	fi
 	echo "--------------------"
 }
