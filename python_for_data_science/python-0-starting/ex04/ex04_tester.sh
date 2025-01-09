@@ -42,3 +42,10 @@ case6_command="python whatis.py 0"
 case6_expected="I'm Even."
 
 func_run_test "$case6_command" "$case6_expected"
+
+
+# TEST CASE 7 - 숫자가 아닌 경우, AssertionError가 발생한다.
+case7_command="python whatis.py 111s443"
+case7_expected="AssertionError: argument is not an integer"
+
+func_run_test "$case7_command" "$case7_expected"
