@@ -2,10 +2,10 @@ import sys
 
 
 def main():
-    """
-    Convert a single string argument to Morse code.
-    Raises AssertionError if wrong number of arguments or wrong type.
-    """
+    """Convert a single string argument to Morse code.
+- python sos.py <string>
+- Raises AssertionError if wrong number of arguments or wrong type.
+"""
 
     NESTED_MORSE = {
         " ": "/",
