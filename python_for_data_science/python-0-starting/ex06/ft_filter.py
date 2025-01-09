@@ -10,6 +10,7 @@ is true. If function is None, return the items that are true."""
 
 
 def main():
+    """This is the main statement that is not being used."""
     ft_filter(None, [])
 
 
